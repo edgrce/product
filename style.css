@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, #FFCF96,#FFC5C5);
+}
+
+#btn{
+    background-image: linear-gradient(to right, #FFCF96,#FFC5C5);
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+#home{
+    background-image: linear-gradient(to right, #FFCF96,#FFC5C5);
+    color: white;
+    padding-top: 5%;
+}
+
+.tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.bottom-img{
+    width: 100%;
+}
+
+#about{
+    padding: 85px 0;
+}
+
+span{
+    color: #FFC5C5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span2{
+    color: #FFCF96;
+}
+
+.title::before{
+    content: '';
+    background: #DF826C;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background: #DF826C;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(0px);
+}
+
+#product{
+    padding: 90px 0;
+}
+
+.card{
+    background-image: linear-gradient(to top, #FFCF96,#FFC5C5);
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+#testi {
+    margin: 100px 0;
+}
+.testi{
+    border-left: 4px solid #DF826C;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testi img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.detail {
+    display: inline-block;
+    font-size: 12px;
+}
+#social{
+    padding: 100px 0;
+}
+#social p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.icons img{
+    margin-top: 35px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.icons a:hover img{
+    transform: translateY(-13px);
+    
+}
+#footer{
+    background-image: linear-gradient(to right, #FFCF96,#FFC5C5);
+    color: white
+}
+.footer-img{
+    width: 100%;
+}
